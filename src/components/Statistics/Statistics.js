@@ -1,4 +1,4 @@
-import { Section, TitleSt, List, ListItem } from './Statistics.styled';
+import { Section, TitleSt, List, ListItem, Span } from './Statistics.styled';
 import PropTypes from 'prop-types';
 
 export const Statistics = ({ title, stats }) => {
@@ -8,7 +8,7 @@ export const Statistics = ({ title, stats }) => {
       <List>
         {stats.map(stat => (
           <ListItem key={stat.id}>
-            <span className="label">{stat.label}</span>
+            <Span className="label">{stat.label}</Span>
             <span className="percentage">{stat.percentage}%</span>
           </ListItem>
         ))}

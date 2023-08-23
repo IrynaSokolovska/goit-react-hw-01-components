@@ -22,3 +22,6 @@ export const ListItem = styled.li`
   flex-wrap: wrap;
   flex-direction: column;
 `;
+export const Span = styled.span`
+  border: 1px solid black;
+`;
