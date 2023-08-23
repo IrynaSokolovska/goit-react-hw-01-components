@@ -1,4 +1,3 @@
-import { FriendCard } from './FriendCard';
 // import PropTypes from 'prop-types';
 import { List, ListItem } from './FriendList.styled';
 
