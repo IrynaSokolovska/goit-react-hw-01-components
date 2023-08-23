@@ -1,8 +1,8 @@
 import { FriendCard } from './FriendCard';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { List, ListItem } from './FriendList.styled';
 
-export const FriendList = ({ friends }) => {
+export const FriendCard = ({ friends }) => {
   return (
     <List>
       {friends.map(friend => {
@@ -15,6 +15,6 @@ export const FriendList = ({ friends }) => {
     </List>
   );
 };
-FriendList.propTypes = {
-  friends: PropTypes.arrayOf(PropTypes.object),
-};
+// FriendList.propTypes = {
+//   friends: PropTypes.arrayOf(PropTypes.object),
+// };

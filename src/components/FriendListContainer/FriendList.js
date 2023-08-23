@@ -1,6 +1,6 @@
 import { Span } from './FriendCard.styled';
 
-export const FriendCard = ({ card: { name, avatar, isOnline } }) => {
+export const FriendList = ({ card: { name, avatar, isOnline } }) => {
   return (
     <div>
       <Span>{isOnline && 'online'}</Span>
@@ -9,6 +9,3 @@ export const FriendCard = ({ card: { name, avatar, isOnline } }) => {
     </div>
   );
 };
-{
-  /* <Span color={friend}>{isOnline && 'online'}</Span>; */
-}
