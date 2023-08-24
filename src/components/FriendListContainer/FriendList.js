@@ -1,5 +1,3 @@
-// import { Span } from './FriendCard.styled';
-
 // export const FriendList = ({ card: { name, avatar, isOnline } }) => {
 //   return (
 //     <div>
@@ -9,6 +7,20 @@
 //     </div>
 //   );
 // };
+
+// function getColor(props) {
+//   const isOnline = props.isOnline;
+//   if (isOnline===true) {
+//     return "green";
+//   else {
+//     return "red"
+// }
+// const getColor = props => {
+// if (props.color.isOnline) {
+//     return "green"
+// } else {
+//     return "red"
+// }
 // { card: {name, avatar, isOnline}}
 
 import PropTypes from 'prop-types';

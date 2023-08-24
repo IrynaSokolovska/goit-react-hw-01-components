@@ -15,13 +15,20 @@ export const TitleSt = styled.h2`
 export const List = styled.ul`
   display: flex;
   padding: 0;
+  margin: 0;
   justify-content: space-around;
+  background-color: pink;
 `;
 export const ListItem = styled.li`
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 `;
-export const Span = styled.span`
-  border: 1px solid black;
+export const SpanLable = styled.span`
+  color: white;
+`;
+export const SpanNumber = styled.span`
+  font-weight: 400;
+  font-size: 26px;
+  color: white;
 `;
