@@ -16,7 +16,7 @@ export const Table = styled.table`
 //   margin: 0;
 //   padding: 0;
 // `;
-export const TabletCell = styled.th`
+export const TableCell = styled.th`
   font-weight: 500;
   font-size: 18px;
   width: 100%;

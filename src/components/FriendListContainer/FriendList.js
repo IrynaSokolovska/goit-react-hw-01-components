@@ -1,28 +1,3 @@
-// export const FriendList = ({ card: { name, avatar, isOnline } }) => {
-//   return (
-//     <div>
-//       <Span>{isOnline && 'online'}</Span>
-//       <img src={avatar} alt={name} width="48" />
-//       <p>{name}</p>
-//     </div>
-//   );
-// };
-
-// function getColor(props) {
-//   const isOnline = props.isOnline;
-//   if (isOnline===true) {
-//     return "green";
-//   else {
-//     return "red"
-// }
-// const getColor = props => {
-// if (props.color.isOnline) {
-//     return "green"
-// } else {
-//     return "red"
-// }
-// { card: {name, avatar, isOnline}}
-
 import PropTypes from 'prop-types';
 import { FriendCard } from '../FriendListContainer/FriendCard';
 import { List, ListItem } from '../FriendListContainer/FriendList.styled';

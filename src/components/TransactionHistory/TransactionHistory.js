@@ -1,4 +1,4 @@
-import { Table, TabletCell } from './TransactionHistory.styled';
+import { Table, TableCell } from './TransactionHistory.styled';
 import PropTypes from 'prop-types';
 
 export const TransactionHistory = ({ items }) => {
@@ -6,9 +6,9 @@ export const TransactionHistory = ({ items }) => {
     <Table>
       <thead>
         <tr>
-          <TabletCell>Type</TabletCell>
-          <TabletCell>Amount</TabletCell>
-          <TabletCell>Currency</TabletCell>
+          <TableCell>Type</TableCell>
+          <TableCell>Amount</TableCell>
+          <TableCell>Currency</TableCell>
         </tr>
       </thead>
 
